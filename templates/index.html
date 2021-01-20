@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UPLOAD</title>
+    <link rel="stylesheet" href="C:\Users\hi\Desktop\Projects\Data_Science_projects\DL Projects\Acne_Detector\static\style.css">
+</head>
+<body>
+
+<style>
+body {
+  background-image: url("C:\\Users\\hi\\Desktop\\Projects\\Data_Science_projects\\DL Projects\\Acne_Detector\\static\\allpages.jpg");
+}
+</style>
+
+<h1>Acne Detector</h1>
+<p>Acne is a something that has troubled alot of the guys in terms of appearances and personalities. Though it is not something that can make you a Bill gates or Elon Musk when you get rid of it, But certainly can make you a good looking person that can boost your personality and confidence</p>
+<p>It is majorly seen in teens and they just try bundles of fancy techniques that are shown on youtube and other blogs that promise you so that you can get rid of them but probably endup no where.</p>
+<p>Here on this page you will get to know about the whole details about why it happens and certainly you would get to know about some techniques that can help you minimize them. We are not guaranteeing you about the results tho!</p>
+<p>Acne can take many forms and are of many types but here we classify them into 4 major classes.</p>
+<h3>How to know what kind of Acne you have on your face ?</h3>
+<ol>
+    <li>Just Drop a photo of your acne in the upload box and wait for the results.</li>
+    <li>Follow the steps in the result page to get rid of them.</li>
+</ol>
+<h4>Drop photo of your acne here.</h4>
+<form action="{{ url_for('predict')}}">
+  <input type="file" id="myFile" name="filename"><br>
+    <br>
+  <input type="submit">
+</form>
+<b><i>Note: This app doesnt show you about major Skin diseases like Skin Cancer and etc. Please visit a Doctor to get cured.</i></b>
+
+</body>
+</html>
